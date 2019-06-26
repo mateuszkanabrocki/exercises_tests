@@ -1,0 +1,1 @@
+I got this from the stdin: ['A lot of fresh data! ^^;p\n']
