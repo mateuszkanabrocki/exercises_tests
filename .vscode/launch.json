@@ -5,11 +5,28 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File",
-            "type": "python",
+            "type": "bashdb",
             "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
+            "name": "Bash-Debug (select script from list of sh files)",
+            "cwd": "${workspaceFolder}",
+            "program": "${command:SelectScriptName}",
+            "args": ["10", "5"]
         }
+
+    // {
+    //     "type": "bashdb",
+    //     "request": "launch",
+    //     "name": "Bash-Debug (hardcoded script name)",
+    //     "cwd": "${workspaceFolder}",
+    //     "program": "${workspaceFolder}/path/to/script.sh",
+    //     "args": []
+    // }
+        // {
+        //     "name": "Python: Current File",
+        //     "type": "python",
+        //     "request": "launch",
+        //     "program": "${file}",
+        //     "console": "integratedTerminal"
+        // }
     ]
 }

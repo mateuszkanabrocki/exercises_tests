@@ -1,0 +1,9 @@
+
+Command 'catt' not found, did you mean:
+
+  command 'ratt' from deb ratt
+  command 'cant' from deb swap-cwm
+  command 'cat' from deb coreutils
+
+Try: sudo apt install <deb name>
+

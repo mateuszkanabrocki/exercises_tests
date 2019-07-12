@@ -1,0 +1,10 @@
+#!/bin/bash
+cat <<MMM
+current directory is:
+$PWD
+echo :o
+EOF
+MMM
+echo ":D"
+echo "  uuu"
+
